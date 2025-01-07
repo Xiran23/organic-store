@@ -412,3 +412,73 @@ body {
 
 
 }
+
+.customer {
+    display: flex;
+    /* margin: auto; */
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title-revies {
+    /* align-items: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.title-revies img {
+    width: 90px;
+    height: 40px;
+    margin-bottom: 40px;
+}
+
+
+.customer {
+    margin-top: 160px;
+}
+
+.box {
+    width: 450px;
+    background-color: lightblue;
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.customer-reviews {
+    display: flex;
+    /* height: 300px; */
+    align-items: flex-end;
+
+}
+
+.box:nth-child(2) {
+    background-color: lightcoral;
+    height: 400px;
+    background-image: url("veg.jpg");
+
+}
+
+.mid-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mid-box,
+h1,
+p {
+
+    color: white;
+    margin: auto;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+    /* padding: 0 10px 0px 10px; */
+}
